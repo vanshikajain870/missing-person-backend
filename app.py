@@ -79,7 +79,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return "Missing Person Backend API is running successfully!"
+    return send_file("index.html")
 # ===========================
 # MongoDB Connection
 # ===========================
